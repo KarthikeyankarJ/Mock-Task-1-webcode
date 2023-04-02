@@ -118,6 +118,8 @@ img{
   }
   .info{
     width: 150px;
-    font-size: 14px;
+  }
+    body{
+    font-size: 12px;
   }
 }
