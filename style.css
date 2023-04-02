@@ -102,6 +102,10 @@ img{
   display: flex;
   margin: auto;
 }
+.position1{
+  width: 180px;
+}
+
 
 
 @media (max-width:500px){
