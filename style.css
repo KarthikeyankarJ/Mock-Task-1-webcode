@@ -1,0 +1,119 @@
+body{
+  background-color: whitesmoke;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-image: linear-gradient(rgba(262, 262, 271, 0.05),rgba(17, 21, 24, 0.5)),url(geek.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-blend-mode:darken
+
+
+
+}
+.container{
+  background-color: white;
+  display: flex;
+  padding: 20px;
+  border-radius: 8px;
+  width: 400px;
+  height: 170px;
+  transition: transform .3s;
+  background: linear-gradient(-60deg, #d1e15a 40%, rgba(236, 235, 235, 0) 30%),url(geek.jpg);
+  box-shadow: rgba(16, 16, 19, 0.1) 0px 8px 24px, rgba(11, 11, 14, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;}
+.container:hover{
+  transform:scale(1.1);
+}
+  .name1{
+width: 200px;
+display: flex;
+align-items: center;
+color: rgb(0, 0, 0);
+}
+.name1 h4{
+  padding-left: 10px
+}
+nav{
+  margin-top: 20px;
+  text-align: center;
+  width: 100%;
+
+}
+.name1 h4{
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  
+}
+nav input{
+  padding: 10px;
+  outline: none;
+}
+button{
+  width: 100px;
+  padding: 10px;
+  border-radius: 5%;
+  color: rgb(255, 255, 255);
+  background: rgba(0, 0, 0, 0.8);
+  border: none;
+  cursor: pointer;
+  margin: 24px 16px;
+  transition: 0.5s;
+}
+button:hover{
+  background-color: transparent;
+  color: rgb(0, 0, 0);
+  border: 1px solid rgb(255, 255, 255);
+}
+
+.material-symbols-outlined {
+
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 48
+}
+.topic{
+  display: flex;
+  margin: auto;
+}
+.icon{
+  margin: auto;
+}
+.headline{
+  flex:1;
+  padding-left: 6px;
+}
+.img{
+  width: 40px;
+  margin-top: 10px;
+
+}
+img{
+  width: 100%;
+}
+.shopsize{
+  display: flex;
+  margin: auto;
+}
+
+
+@media (max-width:500px){
+  .container{
+    width: 300px;
+    height: 170px;
+}
+  .position1{
+    width: 150px ;
+  }
+  .info{
+    width: 150px;
+    font-size: 14px;
+  }
+}
