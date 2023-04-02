@@ -21,7 +21,7 @@ body{
   display: flex;
   padding: 20px;
   border-radius: 8px;
-  width: 400px;
+  width: 430px;
   height: 170px;
   transition: transform .3s;
   background: linear-gradient(-60deg, #d1e15a 40%, rgba(236, 235, 235, 0) 30%),url(geek.jpg);
